@@ -7,7 +7,7 @@ import {
   TeliaHeroBanner,
 } from "@teliads/components/react";
 
-const Hero = ({ image, title, content }) => (
+const heroComp = ({ image, title, content }) => (
   <div className="heroContainer">
     <TeliaHeroBanner imgSrc={image}>
       <TeliaTextSpacing>
