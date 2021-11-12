@@ -6,6 +6,7 @@ import Hero from '../components/hero'
 import Layout from '../components/layout'
 import ArticlePreview from '../components/article-preview'
 import heroComp from "../components/heroComp";
+import { TeliaColorDot } from "@teliads/components/react";
 
 class RootIndex extends React.Component {
   render() {
@@ -15,6 +16,7 @@ class RootIndex extends React.Component {
 
     return (
       <Layout location={this.props.location}>
+      <TeliaColorDot color='#fe45f7'></TeliaColorDot>
          <heroComp
           image='imageurl'
           title='test title'
